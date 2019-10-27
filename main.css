@@ -3,6 +3,25 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   border: 0;
   margin: 0;
 }
+body {
+  background: #555555 url(images/bg-tile.png)
+}
+.header {
+  padding: 15px;
+  background: #242424 url(images/bg-header.png) top center no-repeat;
+}
+.content-section {
+  padding: 15px;
+  width: 450px;
+  margin: 0 auto;
+  background: #dddddd url(images/bg-content.png);
+}
+.nav a {
+  
+}
+.bands-list li {
+  border: 2px solid #555555;
+}
 h1 {
   color: #000000;
   margin: 15px 0 15px;
@@ -31,9 +50,6 @@ ul {
 li {
   margin-bottom: 5px;
 }
-body {
-  padding: 0;
-}
 ol {
   padding: 0 0 0 20px;
 }
@@ -56,16 +72,8 @@ ol {
   color: #888888;
   margin: 0 0 15px 0;
 }
-.header {
-  padding: 15px;
-}
-.content-section {
-  padding: 15px;
-  width: 450px;
-  margin: 0 auto;
-}
 .album {
-  border: 2px dashed #bbbbbb;
+  border: 2px solid #bbbbbb;
   padding: 5px 10px 5px 10px;
   margin-bottom: 5px;
 }
@@ -80,9 +88,6 @@ ol {
 .bands-list a {
   text-decoration: none;
   color: #ff2244;
-}
-.bands-list li {
-  border: 1px solid #555555;
 }
 .header img {
   margin: 0 auto 15px auto;
