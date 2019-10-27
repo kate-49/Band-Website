@@ -5,7 +5,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 }
 h1 {
   color: #000000;
-  margin: 0 0 15px 0;
+  margin: 15px 0 15px;
   text-align: center;
 }
 h2 {
@@ -15,7 +15,7 @@ h2 {
   padding: 2px;
 }
 h3 {
- color: #666666;
+  color: #666666;
   margin: 10px 0 10px 0;
 }
 p {
@@ -73,7 +73,7 @@ ol {
   list-style-type: none;
   padding-left: 0;
 }
-.bands-list h3 {
+.bands-list h2 {
   border-bottom: 0;
   margin: 0;
 }
